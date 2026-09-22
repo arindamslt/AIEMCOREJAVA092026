@@ -1,0 +1,179 @@
+DATE:22.09.2026
+=======================================================================
+CORE JAVA
+==============================================================
+FEATURES OF JAVA
+=======================================================
+1.OBJECT ORIENTED PROGRAMMING
+2.DISTRIBUTED
+3.PLATFORM INDEPENDENT
+4.MUTITHREADING
+PLATFORM INDEPENDENT
+============================================================
+javac X.java
+=============================================
+X.java =====java compiler====JAVA BYTE CODE===X.class
+java X
+=====================================================
+X.class===JVM(JAVA VIRTUAL MACHINE)===RUN THE JAVA PROGRAM-=====O/P
+JVM
+=================================
+JAVA VIRTUAL MACHINE
+IT IS AN ABSTRACT MACHINE WHOSE PURPOSE TO EXECUTE COMPILED JAVA CLASS
+OBJECT ORIENTED PROGRAMMING
+======================================================
+CLASS===CLASS IS COLLECTION OF OBJECTS WITH COMMON PROPERTIES AND BAHAVIOUR 
+OBJECT=====REAL WORLD ENTITY
+ FURNITURE   CHAIR TABLE BOOKSHELF
+  CLASS      OBJECTS 
+COMMON CHARECTERISTICS
+=========================================
+LENGTH
+WIDTH
+HEIGHT
+COMMONG BEHAVIOUR
+==================================
+KEEPING SOMETHING
+
+FEATURES OF OBJECT ORIENTED PROGRAMMING
+===================================================
+1.ENCAPSULATION
+2.POLYMORPHISM
+   STATIC POLYMORPHISM
+   DYNAMIC POLYMORPHISM
+3.INHERITANCE
+   SINGLE
+   MULTILEVEL
+   HEIRARCHICAL
+4.ABSTRACTION
+5.DYNAMIC BINDING
+==========================================================
+UML
+=========================================
+UNIFIED MODELLING LANGUAGE
+==============================================
+TO DRAW THE CLASS DIAGRAM
+
+SOFTWARE
+=================================
+MINIMUM JAVA21
+IDE:ECLIPSE,STS
+=====================================
+JDK===JAVA DEVELOPMENT TOOL KIT
+JRE====JAVA RUNTIME ENVIRONMENT
+JVM====JAVA VIRTUAL MACHINE
+JIT====JUST IN TIME COMPILER
+==============================================================
+ENCAPSULATION
+=================================================================
+CROCIN650
+BINDING OF DATA AND METHOD TOGETHER
+
+PROJECT CREATION
+UNDER SRC===CREATE A PACKAGE
+UNDER YOUR PACKAGE===CREATE A CLASS GENERALLY WHERE MAIN IS THERE
+=======================================================================
+POLY MORPHISM
+=================================================================
+POLY==MANY 
+MORPHISM==FORMS
+TYPES OF POLY MORPHISM
+=========================================
+1.STATIC POLYMORPHISM===DETEECTED AT THE COMPILATION TIME
+2.DYNAMIC POLYMORPHISM
+ADD(INT ,INT)
+ADD(INT,FLOAT)
+ADD(DOUBLE,DOUBLE)
+CALLING
+==================
+ADD(5,6)
+ADD(5,6.5)
+ADD(5.9,10.2)
+STATIC POLYMORPHISM IS CALLED METHOD OVERLOADDING
+METHOD OVERLOADDING
+===========================================
+SAME METHOD NAME WITH DIFFERENT ARGUMENT PASSING BUT BODY IS MORE OR LESS SAME
+
+SUPER CLASS IN JAVA IS Object class WHICH BELONGS TO java.lang.* PACKAGE.	
+
+CONSTRUCTOR
+=====================================
+CONSTRUCTOR IS THE SAME NAME OF THE CLASS NAME
+IT IS NOT EVEN VOID NOR RETURN TYPE BECAUSE IT RETURNS CLASS ITSELF
+PURPOSE
+============================
+1.CREATING OBJECT OF  A CLASS
+2.AT THE TIME OF CREATING THE OBJECT INITIALIZE THE OBJECT
+
+INHERITANCE
+===================================
+AQURING THE PROPERTY OF ONE CLASS INTO ANOTHER CLASS CALLED INHERITANCE
+CLASS FROM HERE PROPERTY INHERITED CALLED SUPER CLASS
+THE AQUIRE THOSE PROPERTY ARE CALLED BASE CLASS  
+TYPES OF INHERITANCE
+=========================
+1.SINGLE INHERITANCE
+2.MULTILEVEL INHERITANCE
+3.HIERARCHICAL INHERITANCE
+=================================================================================
+DYNAMIC POLYMORPHISM
+===================================================================
+WHEN BOTH IN PARENT CLASS AND CHILD CLASS METHOD IS SAME BUT BODY IS DIFFERENT
+IT WILL DETECT AT THE RUN TIME AND IT IS CALLED METHOD OVERRIDDING
+UTILITY OF SUPER
+============================
+1.CALLING THE SUPER CLASS CONSTRUCTOR
+2.CALLING THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
