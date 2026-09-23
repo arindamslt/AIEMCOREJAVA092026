@@ -113,9 +113,9 @@ THE AQUIRE THOSE PROPERTY ARE CALLED BASE CLASS
 TYPES OF INHERITANCE
 =========================
 1.SINGLE INHERITANCE
-2.MULTILEVEL INHERITANCE
 3.HIERARCHICAL INHERITANCE
 =================================================================================
+2.MULTILEVEL INHERITANCE
 DYNAMIC POLYMORPHISM
 ===================================================================
 WHEN BOTH IN PARENT CLASS AND CHILD CLASS METHOD IS SAME BUT BODY IS DIFFERENT
@@ -125,10 +125,132 @@ UTILITY OF SUPER
 1.CALLING THE SUPER CLASS CONSTRUCTOR
 2.CALLING THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
 
+DATE:23.09.2026
+==============================================================================
+ABSTRACTION
+=================================================
+1.ABSTRACT CLASS
+A CLASS CONSIDERED TO ABSTRACT IF THERE IS ATLEAST ONE ABSTRACT METHOD
+EX:
+abstract class Test
+{
+    public abstract void display();
+
+ }
+
+2.ABSTRACT METHOD
+==================================
+A METHOD CONSIDERED TO ABSTRACT IF THE METHOD HAVE NO BODY
+EX:
+public void show()
+{
+====================BODY
+ }
+public abstract void display();
+
+RESTRICTION
+==========================
+WE CAN'T CREATE THE OBJECT OF ABSTRACT CLASS
+PURPOSE
+=======================
+REUSE THE CODE
+======================================
+ACCESS SPECIFIER
+===========================================
+PUBLIC
+PRIVATE 
+PROTECTED
+DEFAULT
+====================================================
+PACKAGE
+=======================================
+PACKAGE IS COLLECTION OF SIMILLAR TYPES OF CLASS
+PACKAGE OOPS;
+PRIVATE MEMBER ARE ACCESSABLE SAME CLASS ONLY
+DEFAULT MEMBER ARE ACCESSABLE SAME CLASS AND IT'S SUBCLASS BUT THEY ARE IN SAME PACKAGE
+PUBLIC AND PROTECTED MEMBER ARE ACCESSABLE SAME CLASS AND IT'S SUBCLASS EVEN IF THEY
+ARE IN DIFFRENT PACKAGES.
+===================================================================================
+MODIFIER
+================================================================================
+MODIFIER TELLS HOW A MEMBER OF A CLASS IS BEING ACCESSED INTO ANOTHER CLASS
+PRIVATE======
+PUBLIC     ACCESS SPECIFIER
+PROTECTED
+DEFAULT=====
+STATIC
+FINAL
+ABSTRACT
+NATIVE
+==========================================================
+STATIC
+=================================================
+IT IS USED BY ITSELF.
+IF WE DECLARE ANY METHOD TO BE STATIC NO NEED TO CREATE OBJECT TO ACCESS THE METHOD
+StaticDemo
+STATIC BLOCK
+===================================
+IT EXECUTES ONLY ONCE AND EXECUTES FIRST
+RESTRICTION
+============================
+IT ONLY ACCESS STATIC MEMBER
+========================================================== 
+FINAL
+===================================================
+IF WE DECLARE VARIABLE IS FINAL IT WILL BE CONSTANT
+IF WE DECLARE METHOD IS FINAL IT CAN'T BE OVERRIDDEN
+IF WE DECLARE CLASS IS FINAL IT CAN'T BE INHERITED
+=======================================================
+THIS 
+=======================================================
+TO INVOKE THE CURRENT OBJECT
+===================================================
+NESTED CLASS
+=============================================================
+CLASS WITHIN CLASS CALLED NESTED CLASS
+THIS NESTED CLASS CAN TWO TYPES
+=================================
+1.STATIC
+2.NON STATIC
+NON STATIC NESTED CLASS IS CALLED INNER CLASS
+class X=============OUTER CLASS
+ {
+
+       class Y====INNER CLASS
+       { 
+
+         }
+
+
+ }
+============================================================
+INTERFACE
+=================================================================
+INTERFACE IS AN CONTRACT BETWEEN THE CLIENT CODE AND THE IMPLEMENTED CLASS
+IN INTERFACE ALL METHODS ARE BY DEFAULT ABSTRACT AND PUBLIC
+IN JAVA8 DEFAULT METHOD IN INTERFACE
+INTERFACE IS IMPLEMENTED IN A CLASS
+INTERFACE ABLE TO OVERCOME MULTIPLE INHERITANCE
+public Interface Test
+
+ 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
