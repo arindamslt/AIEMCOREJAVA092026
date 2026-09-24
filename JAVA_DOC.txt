@@ -232,6 +232,160 @@ IN JAVA8 DEFAULT METHOD IN INTERFACE
 INTERFACE IS IMPLEMENTED IN A CLASS
 INTERFACE ABLE TO OVERCOME MULTIPLE INHERITANCE
 public Interface Test
+===========================================================================
+DATE:24.09.2026
+==================================================================
+EXCEPTION
+=================================================================
+ERROR  VS  EXCEPTION
+ERROR IS NOT RECOVERABLE
+EXCEPTION IS EVENT WHICH OCCUR DURING THE EXECUTION OF THE PROGRAM.
+IF WE HANDLE THE EXCEPTION THEN IT WILL OVERCOME ABNORMAL TERMINATION
+EXCEPTION IS RECOVERABLE
+=======================================================================
+TYPES OF EXCEPTION
+===========================================================
+1.UNCHECKED EXCEPTION
+=====================================================
+RUNTIME EXCEPTION AND IT'S SUBCLASS CALLED UNCHECKED EXCEPTION
+UNCHECKED CAN HANDLE BY JVM IMPLICITLY
+2.CHECKED EXCEPTION
+================================================================
+OTHER THAN RUNTIME EXCEPTION AND IT'S SUBCLASS CALLED CHECKED EXCEPTION
+HERE YOU HANDLE EXCEPTION EXPLICITLY
+HIERARCHY OF EXCEPTION
+=========================================
+EXCEPTION HANDLE BY
+==================================================
+try
+ catch
+  throw
+   throws
+   finally
+
+WHERE WE HANDLE THE EXCEPTION
+=======================================
+IT IS TO BE HANDLED WITHIN THE METHOD
+
+EXCEPTION HANDELLING MESSAGE
+====================================
+1.EXCEPTIONOBJECT.printStackTrace()====EXCEPTION CLASS NAME+EXCEPTION PACKAGE NAME+LINE NUMBER
+                                        WHERE ERROR OCCURS+message
+2.System.out.println(ExceptionObject)====EXCEPTION CLASS NAME+EXCEPTION PACKAGE NAME+message
+3.System.out.println(ExceptionObject.getMessage())===HERE ONLY MESSAGE
+========================================================================================
+FINALLY
+=======================================================
+IF THE EXCEPTION OCCUR OR NOT IT IS ALWAYS EXECUTED
+PURPOSE
+============================================
+CLEANING UP TASK
+THROWS
+=================================================================
+IF YOU DO NOT WANT TO USE TRY AND CATCH
+THEN YOU CAN USE THROWS CLAUSE ALONG WITH METHOD NAME BUT TO BE WRITTEN BOTH
+ON CALLER AS WELL AS CALLE ENVIRONMENT
+==========================================================================
+ARCHITECTURE OF JVM
+=============================================================================
+Test.java====JAVA COMPILER====JAVA BYTE CODE===Test.class
+Test.class====JVM(JAVA VIRTUAL MACHINE)===GENERATES THE OUTPUT
+
+ 
+STRING HANDELLING
+============================================================================
+STRING IS IMMUTABLE OBJECT
+STRING BELONGS TO java.lang.* PACKAGE
+CREATION OF STRING
+======================================
+String s1=new String("ARUP");
+String s2="SUMAN";//STRING LITERAL
+STRING CONSTANT POOL
+LIST  OF STRING HANDELLING METHOD
+=============================================================
+isEmpty()
+toUppercase()
+toLowercase()
+replace()
+indexOf()
+lastIndexOf()
+trim()
+length()
+split()
+substring()
+===============================================
+STRINGBUFFER
+STRING BUILDER 
+
+BOTH OF THEM ARE USED IF THE DATA CHANGED FREQUENTLY
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LIST OF IMPORTANT IN STRING
+===============================================================================
+is Empty()
+toUpperCase()
+toLowerCase()
+indexOf()
+substring()
+trim()
+replace()
+split()
+charAt()
+replace()
 
  
 
