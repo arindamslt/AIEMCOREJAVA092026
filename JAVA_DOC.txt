@@ -318,7 +318,101 @@ STRINGBUFFER
 STRING BUILDER 
 
 BOTH OF THEM ARE USED IF THE DATA CHANGED FREQUENTLY
- 
+DATE:25.09.2026
+=========================================================================== 
+MULTITHREADING
+==========================================================================
+MULTI PROCESSING===WHEN MULTIPLE PROCESS ARE RUNNING SIMULTENEOUESLY USING MULTIPLE CPU
+
+MULTI TASKING==MULTIPLE TASKS RUNNING SIMULTENEOUSLY BY SINGLE CPU 
+
+MULTI THREADING==MULTIPLE THREDS ARE RUNNING SIMULTENEOUSLY
+THREAD
+===============================================
+SMALLEST UNIT OF DESPATCHABLE CODE
+PURPOSE OF THREAD
+======================
+PARALLEL PROCESSING
+FASTER EXECUTION
+HOW TO CREATE A THREAD
+==============================================
+THE THREAD CAN BE CREATED BY TWO WAYS
+==========================================
+1.EXTENDING THE THREAD CLASS
+2.IMPLEMENTS THE RUNNABLE INTERFACE
+java.lang.Thread
+class Test extends Thread
+class Test implements Runnable
+STAGES OF THREAD
+=================================================
+FirstThread extends Thread
+FstThread implements Runnable
+class FirstThread extends Test,Thread====NOT POSSIBLE.JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE
+class FstThread extends Test implements Runnable===POSSIBLE
+ALWAYS IMPLEMENTS RUNNABLE IS BETTER THAN EXTENDING THREAD CLASS.
+IF CHILD CLASS WANT TO GET THREAD FACILITY IT IS NOT POSSIBLE FOR EXTENDING THREAD CLASS
+BECAUSE JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE BUT IN CASE IMPLEMENTS RUNNABLE
+IT IS POSSIBLE.
+========================================================================================
+THREAD SCHEDULING
+=================================================================
+THREAD PRIORITY
+===============================================================
+IN CASE OF THREAD THERE ARE THREE PRIORITIES
+============================================
+PRIORITY RANGES BETWEEN 1 TO 10
+1.MAX===10
+2.NORM===5===BY DEFAULT
+3.MIN====1
+=============================================
+DAEMON THREAD
+=========================================
+IT IS LOW PRIORITY THREAD.GENERALLY MAIN THREAD IS WAIT FOR OTHER THREAD TO BE TERMINATE
+BUT IN CASE OF DAEMON THREAD MAIN THREAD IS NOT WAIT FOR DAEMON THREAD TO BE TERMINATE
+GENERALLY DAEMON THREAD IS RUNNING IN BACKGROUND
+===========================================================================================
+SYNCHRONIZATION
+MUTEX==MUTUALLY EXCLUSIVE LOCK
+CRITICAL SECTION
+DEADLOCK
+SYNCHRONIZATION BLOCK
+============================================================================
+SYNCHRONIZATION
+=================================================================
+IT IS A SITUATION WHEN ONE THREAD ACCESSING THE SHARED RESOURCE
+OTHER THREADS UNABLE TO ACCESS IT.
+DURING THE SYNCHRONIZATION ONE LOCK HAS BEEN APPILED CALLED MUTEX I.E. MUTUALLY
+EXCLUSIVE LOCK
+THIS SITUATION IS CALLED CRITICAL SECTION
+DEADLOCK
+=================================================================
+WHEN ONE THREAD ACCESSING ONE SHARED RESOURCE AND OTHE THREAD ALREADY ACCESS
+ANOTHER SHARED RESOURCE.
+AT PRESENT FIRST THREAD WANT TO ACCESS THE SHARED RESOURCE HOLD BY SECOND THREAD
+AND VICE VERSA.THESE SITUATION IS CALLED DEADLOCK
+================================================================================
+SYNCHRONIZATION CAN BE IMPLEMENTD BY TWO WAYS
+===================================================
+USING SYNCHRONISED KEYWORD
+USING SYNCHRONISED BLOCK
+======================================================
+CONSUMER PRODUCER PROBLEM
+=================================================================================
+Synchronized(this)
+{
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
