@@ -402,6 +402,119 @@ Synchronized(this)
 {
 
 }
+========================================================================
+DATE:28.09.2026
+=======================================================================
+COLLECTION FRAMEWORK
+=====================================================================
+int x=10;
+int y=25;
+int[] arr=new int[10];
+PROBLEM AREAS IN ARRAY
+=======================================================
+1.ARRAY STORES HOMOGENEOUS ELEMENTS
+2.ARRAY IS IN FIXED SIZE
+COLLECTION
+===================================
+COLLECTION IS AN OBJECT WHICH HOLDS GROUP OF OBJECTS CALLED ELEMENTS.
+WE HAVE TO IMPORT import java.util.*;
+ARRAY                    VS                COLLECTION
+===============================================================================
+1.ARRAY IS STORE HOMEGENEOUS ELEMENTS  1.COLLECTION STORES BOTH HOMEGENEOUS
+                                         AND HETEROGENEOUS ELEMENTS
+2.ARRAY IS IN FIXED SIZE               2.IT IS GROWABLE OR RESIZABLE
+3.IN CASE OF MEMORY MANAGEMENT         3.IN CASE OF MEMORY MANAGEMENT COLLECTION
+ARRAY IS NOT RECOMMENDED                 IS RECOMMENDED
+4.PERFORMANCE WISE                      4.PERFORMANSE WISE NOT RECOMMEDED
+ARRAY IS BETTER THAN COLECTION       5.IN CASE OF COLLECTION THERE IS IN BUILD
+5.IN CASE OF ARRAY THERE IS NO           DATA STRUCTURE INVOLVED.THERE ARE SOME
+IN BUILT DATA STRUCTURE INVOLVED         PREDEFINED METHODS ARE THERE
+=====================================================================================
+ARRAYLIST
+==========================================
+1.IT STORES BOTH HOMOGENEOUS AND HETEROGENEOUS DATA
+2.IT IS IN DYNAMIC NATURE
+3.UNDERLINE DATASTRUCTURE IS GROWABLE ARRAY
+4.INSERTION ORDER PRESERVED
+5.IT ALLOW THE DUPLICATE VALUE
+6.IT IS USED FREQUENT DATA RETRIEVAL  
+==============================================================
+LINKEDLIST
+=========================================================
+1.UNDERLINE DATASTRUCTURE IS DOUBLY LINKED LIST
+2.USED FOR MIDDLE INSERTION AND DELETION
+3.ALLOW DUPLICATE VALUE
+4.INSERTION ORDER PRESERVED
+
+HASHSET
+================================================================================
+1.IT DOES NOT ALLOW THE DUPLICATE VALUE
+2.UNDERLINE DATA STRUCTURE IS HASHTABLE
+3.INSERTION ORDER IS NOT PRESERVED
+4.IT IS USED FOR SEARCHING DATA
+=============================================================================
+LINKEDHASHSET
+=====================================================
+1.IT DOES NOT ALLOW THE DUPLICATE VALUE
+2.UNDERLINE DATASTRUCTURE IS HASTABLE+LINKEDLIST
+3.INSERTION ORDER PRESERVED
+
+TREESET
+=====================================
+1.IT DOES NOT ALLOW DUPLICATE VALUE
+2.UNDERLINE DATA STRUCTURE IS BALANCE TREE
+3.DATA ARE FETCHED IN ASCENDING ORDER
+4.IT ALLOW ONLY HOMOGENEOUS ELEMENTS
+IN CASE OF TREESET WHEN YOU INSERT DATA IT WILL IMPLEMENTS COMPARABLE INTERFACE
+IN COMPARABLE INTERFACE
+==============================================
+public int compareTo(Object obj1,Object obj2)
+1.IF RETURNS POSITIVE THEN OBJ1 GOES AFTER OBJ2
+2.IF RETURNS NEGATIVE THEN OBJ1 GOES BEFORE OBJ2
+3.IF BOTH ARE EQUAL NO INSERTION TOOK PLACE 
+
+for(Map.Entry<String,Double> entry:hp.entrySet())
+{
+	System.out.println(entry);
+}
+CUSTOMIZED SORTING ORDER
+==============================================
+INTERFACE ===Comparator
+1.IMPLEMENTS COMPARATOR INTERFACE
+public interface Comparator
+ public int compare(Object obj1,Object obj2)
+
+POJO CLASS
+=========================================================
+PLAIN OLD JAVA OBJECT
+IN POJO CLASS
+=======================================
+1.GETTER()
+2.SETTER()
+3.CONSTRUCTOR FROM SUPER CLASS
+4.PARAMETERISED CONSTRUCTOR
+5.toString()
+=============================================================
+HASHTABLE
+=================================
+1.UNDERLINE DATA STRUCTURE HASHTABLE
+2.IT IS SYNCHRONIZED
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
