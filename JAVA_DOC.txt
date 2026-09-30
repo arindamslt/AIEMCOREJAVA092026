@@ -286,6 +286,9 @@ IF YOU DO NOT WANT TO USE TRY AND CATCH
 THEN YOU CAN USE THROWS CLAUSE ALONG WITH METHOD NAME BUT TO BE WRITTEN BOTH
 ON CALLER AS WELL AS CALLE ENVIRONMENT
 ==========================================================================
+THROW
+=======================================================================
+THROW IS USED WHEN YOU CALL USER DEFINED EXCEPTION OR THROW ANY EXCEPTION OBJET.
 ARCHITECTURE OF JVM
 =============================================================================
 Test.java====JAVA COMPILER====JAVA BYTE CODE===Test.class
@@ -499,6 +502,135 @@ HASHTABLE
 =================================
 1.UNDERLINE DATA STRUCTURE HASHTABLE
 2.IT IS SYNCHRONIZED
+DATE:29.09.2026
+============================================================================================
+WHY JAVA8 NEEDED
+===========================================================================================
+1.ENABLE THE FUNCTIONAL PROGRAMMING
+2.CODE IS CONCISE,EASILY MAINTAINABLE,EASILY READABLE
+3.ENABLE PARALLEL PROCESSING
+LISP,SCALA,R,PYTHON
+FEATURES OF JAVA8
+========================================================================
+1.FUNCTIONAL INTERFACE
+2.LAMDA EXPRESSION
+3.PREDEFINED FUNCTIONAL INTERFACE
+     1.PREDICATE
+     2.FUNCTION
+     3.SUPPLIER
+     4.CONSUMER
+4.DEFAULT METHOD IN INTERFACE
+5.STREAM API
+6.DATE AND TIME API
+7.OPTIONAL CLASS
+=======================================================================
+FUNCTIONAL INTERFACE
+=======================================================================
+A INTERFACE IS CONSIDERED THE FUNCTIONAL INTERFACE IF THERE IS ONLY 
+ONE ABSTRACT METHOD.
+1.RUNNABLE===run()
+2.COMPARABLE==compareTo()
+3.COMPARATOR==compare()
+=========================================================================
+LAMDA EXPRESSION
+================================================================
+IT IS A ANNONYMOUS FUNCTION MEANS FUNCTION WITHOUT NAME
+1.NO FUNCTION  NAME
+2.NO MODIFIER
+3.NO RETURN TYPE
+4.LAMDA EXPRESSION IS INVOKED FROM FUNCTION INTERFACE
+=========================================================================
+PREDEFINED FUNCTIONAL INTERFACE
+================================================================================
+1.Predicate
+   public boolean test();
+INPUT IS YOUR
+RETRUN TYPE ALWAYS BOOLEAN
+2.FUNCTION
+HERE INPUT IS GIVEN BY YOU
+ OUTPUT ALSO DECIDES BY YOU
+public <T> apply();
+3.CONSUMER
+INPUT IS GIVEN BY YOU
+OUTPUT IS ALWAYS VOID
+public void accept();
+4.SUPPLIER
+===================================
+NO INPUT GIVEN
+OUTPUT DECIDED BY YOU
+
+public <R> get();
+
+DATE AND TIME API
+======================================================================
+DEAFULT METHOD IN INTERFACE
+==========================================================
+IT CAN SOLVE AMBIGUITY PROBLEM IN MULTIPLE INHERITANCE
+default TO BE  WRIITEN IN INTERFACE
+========================================================================
+STREAM API
+=========================================================================
+STREAM API IS POWER FULL FRAMEWORK TO PROCESS/TRAVERSE THE ELEMENTS IN COLLECTION
+IT BELONGS TO java.util.stream PACKAGE
+public interface Stream
+==================================================================================
+IN STREAM INTERFACE THERE ARE LOT OF METHODS 
+======================================================================
+1.filter(Predeicate p)
+2.map(Function fn)
+3.sorted()
+4.sorted(Comparator c)
+5.distinct()
+6.max(Comparator c)
+7.min(Comparator c)
+8.of()
+===========================================================================
+toString() CONVERT THE OBJECT INTO STRING
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
